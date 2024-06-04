@@ -10,7 +10,7 @@ try {
   const yamlContent = fs.readFileSync(yamlFilePath, "utf8");
 
   // Parse the YAML content
-  const parsedYaml = yaml.safeLoad(yamlContent);
+  const parsedYaml = yaml.load(yamlContent);
 
   console.log(parsedYaml);
 
