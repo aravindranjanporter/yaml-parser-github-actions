@@ -1,0 +1,14 @@
+name: 'yaml-parser-github-actions'
+description: 'A yaml parser to set output'
+author: 'aravind.ranjan@theporter.in'
+inputs:
+  file_path:
+    description: 'YAML File path '
+    required: true
+
+runs:
+  using: 'node20'
+  main: 'lib/index.js'
+branding:
+  icon: 'check-square'
+  color: 'blue'
